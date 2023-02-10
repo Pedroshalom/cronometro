@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Digital";
+  src: local("Digital"), url(./assets/digital.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  border: 2px solid red;;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #2fc18c;
+  text-align: center;
+  font-family: Digital, "sans-serif";
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: extrabold;
+  color: #444955;
+  text-align: center;
+}
+.cabecalho {
+  color: black;
+}
+
+  /* mexer nesse */
+button {
+  font-family: Digital, "sans-serif";
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  justify-items: center;
+  margin-left: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input {
+  margin: 2px;
+  padding: 6px;
+  width: 250px;
+  border: 1px solid black;
+  background-color: red;
+  color: black;
+  border-radius: 12px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+img {
+  max-width: 400px;
+}
+
+.btn {
+  color: black;
+  background-color: red;
+}
+
+@media (max-width: 715px){
+  h2, h1 {
+      font-size: 28px;
+  }
+  input{
+      width: 80%;
+      min-height: 50px;
+  }
+  button {
+      width: 80%;
+      min-height: 50px;
+  }
+  btn {
+    width: 80%;
+      min-height: 50px;
+  }
+}
