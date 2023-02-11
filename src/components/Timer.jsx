@@ -92,7 +92,7 @@ class Timer extends Component {
         
                     <button onClick={this.timer}>Iniciar</button>
         
-                    <button onClick={this.clear}>Pausar</button>
+                    {/* <button onClick={this.clear}>Pausar</button> */}
         
                     <button onClick={this.zerar}>Zerar</button>
         
