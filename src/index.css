@@ -60,6 +60,10 @@ input {
   border-radius: 12px;
 }
 
+.timer {
+  color: red;
+}
+
 input::placeholder {
   color: black;
 }
