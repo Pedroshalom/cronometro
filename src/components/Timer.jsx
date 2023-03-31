@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import bip from '../assets/bip.mp3'
 class Timer extends Component {
 
       state = {
@@ -39,8 +38,6 @@ class Timer extends Component {
           componentDidUpdate() {
             const { time, click } = this.state;
             if (time === 12 && click) {
-              const audio = new Audio(bip);
-              audio.play()
             }
             if (time < 0 && click) {
               clearInterval(this.Timer) 
